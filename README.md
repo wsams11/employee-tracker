@@ -25,4 +25,7 @@ So that I can organize and plan my business
 -console.table
 
 ## Images
-
+![TERMINAL](images/terminal1.png)
+![DIFERENT OPTIONS](images/viewallemployees.png)
+![ALL EMPLOYEES](images/allemployees.png)
+![NEW EMPLOYEE](images/newemployee.png)

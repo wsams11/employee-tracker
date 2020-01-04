@@ -28,6 +28,11 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
+connection.on("error", function(err){
+
+  console.log("ERR", err);
+})
+
 // Setting up connection.query to use promises instead of callbacks
 // This allows us to use the async/await syntax
 connection.query = util.promisify(connection.query);

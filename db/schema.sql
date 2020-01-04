@@ -47,3 +47,4 @@ VALUES ("William", "Sams", 1, 10),
 ("Chaz", "Johnson", 2, 20),
 ("Vas", "Annos",3. 30),
 ("Tom","Ford",4, 40);
+

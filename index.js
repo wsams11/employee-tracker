@@ -78,15 +78,15 @@ start();
 //   ok
     // Call the appropriate function depending on what the user chose
     switch (choice) {
-      case "VIEW_EMPLOYEES"://   ok
+      case "VIEW_EMPLOYEES":  //   ok
         return viewEmployees();
       case "VIEW_EMPLOYEES_BY_DEPARTMENT":
         return viewEmployeesByDepartment();
       case "VIEW_EMPLOYEES_BY_MANAGER":
         return viewEmployeesByManager();
-      case "ADD_EMPLOYEE"://   ok
+      case "ADD_EMPLOYEE": //   ok
         return addEmployee();
-      case "REMOVE_EMPLOYEE"://   ok
+      case "REMOVE_EMPLOYEE": //   ok
         return removeEmployee();
       case "UPDATE_EMPLOYEE_ROLE"://   ok
         return updateEmployeeRole();
